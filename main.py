@@ -11,4 +11,3 @@ print("Missions launched before the year 2000:")
 for i in range(len(mission_names)):
     if mission_years[i] < 2000:
         print(f"{mission_names[i]}")
-
